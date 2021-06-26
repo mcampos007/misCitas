@@ -39,6 +39,7 @@ class DoctorController extends Controller
     public function store(Request $request)
     {
         //
+        
     }
 
     /**
