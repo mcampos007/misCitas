@@ -22,8 +22,8 @@ class CreateUsersTable extends Migration
 
             $table->string('dni');
 
-            $table->string('address')->nullable;
-            $table->string('phone')->nullable;
+            $table->string('address')->nullable();
+            $table->string('phone')->nullable();
             $table->string('role'); //'admn','patient','doctor'
 
             $table->rememberToken();
